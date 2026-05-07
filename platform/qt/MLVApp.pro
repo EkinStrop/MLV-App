@@ -159,8 +159,8 @@ SOURCES += \
     ../../src/mlv/llrawproc/chroma_smooth.c \
     ../../src/mlv/llrawproc/hist.c \
     ../../src/mlv/camid/camera_id.c \   
-    ../../src/mlv/mcraw/mcraw.c \
-    ../../src/mlv/mcraw/cJSON.c \
+    ../../src/mlv/mcraw/mcraw_shim.cpp \
+    ../../src/mlv/mcraw/Decoder.cpp \
     ../../src/mlv/mcraw/RawData.cpp \
     ../../src/mlv/mcraw/RawData_Legacy.cpp \
     ../../src/processing/processing.c \
@@ -260,7 +260,10 @@ HEADERS += MainWindow.h \
     ../../src/mlv/raw.h \
     ../../src/mlv/video_mlv.h \
     ../../src/mlv/mcraw/mcraw.h \
-    ../../src/mlv/mcraw/cJSON.h \
+    ../../src/mlv/mcraw/Decoder.hpp \
+    ../../src/mlv/mcraw/Container.hpp \
+    ../../src/mlv/mcraw/RawData.hpp \
+    ../../src/mlv/mcraw/json.hpp \
     ../../src/mlv/liblj92/lj92.h \
     ../../src/mlv/llrawproc/llrawproc_object.h \
     ../../src/mlv/llrawproc/llrawproc.h \
